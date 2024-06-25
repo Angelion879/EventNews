@@ -1,0 +1,15 @@
+h1.text {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-size: 5rem;
+}
+
+h2.text {
+  font-size: 45px;
+}
+
+.text {
+  font-family: "Micro 5", sans-serif;
+  text-align: justify;
+  font-size: 2rem;
+  margin-left: 15px;
+}
