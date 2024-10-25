@@ -104,7 +104,7 @@ hr {
   justify-content: center;
 }
 
-@media (max-width: 700px){
+@media (max-width: 1150px){
 
   h1.text{
     font-size: 6rem;
