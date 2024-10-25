@@ -6,8 +6,8 @@ h1.text {
 }
 
 h2.text {
-  color: orange;
-  font-size: 3rem;
+  color: #e7a94b;
+  font-size: 4rem;
 }
 
 a {
@@ -20,15 +20,15 @@ a {
 hr {
   height: 40%;
   width: 0.2rem;
-  background-color: blueviolet;
+  background-color: #633f90;
   display: flex;
   margin-inline: 1rem;
 }
 
 .text {
-  font-family: "Underdog", system-ui;
+  font-family: "Germania One", system-ui;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -40,7 +40,11 @@ hr {
 }
 
 .highlights {
-  color:blueviolet;
+  color:#633f90;
+}
+
+.detailing {
+  color: #af74c4;
 }
 
 .info {
@@ -50,7 +54,8 @@ hr {
 .maincard {
   width: 70%;
   height: 100%;
-  background-image: linear-gradient(black,#161617,#490455,#af74c4, #808080);
+  background-image: url("assets/images/Halloween.png");
+  background-size: cover;
 }
 
 .paper {
@@ -78,14 +83,14 @@ hr {
   justify-content: center;
   align-items: center;
   margin-inline: 2%;
-  filter: drop-shadow(0.5rem 0.5rem #9867c5);
+  filter: drop-shadow(0.5rem 0.5rem #af74c4);
 }
 
 .icon_balls {
   width: 14rem;
   height: 14rem;
   border-radius: 50%;
-  background-color: #9867c5;
+  background-color: #af74c4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,16 +112,21 @@ hr {
 @media (max-width: 1200px){
 
   h1.text{
-    font-size: 10rem;
+    margin-top: 10rem;
+    font-size: 8rem;
+    margin-bottom: 8rem;
   }
 
   .maincard {
     width: 100%;
     height: 100%;
+    background-size: 960px 1730px;
   }
 
   h2.text {
-    font-size: 4.5rem;
+    margin-top: -3rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
   }
 
   .paper {
@@ -124,7 +134,7 @@ hr {
   }
 
   .text {
-    font-size: 2.3rem;
+    font-size: 2.7rem;
   }
 
   .text_holder {
@@ -142,7 +152,7 @@ hr {
   }
 
   .mobile{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
 
 }
